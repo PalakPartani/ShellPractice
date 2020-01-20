@@ -1,0 +1,16 @@
+#!/bin/bash -x
+
+inchToFeet=42/12
+echo "Inch to feet :"$inchToFeet
+
+#Enter length and breadth
+read -p "Enter length "length
+read -p "Enter Breadth "len
+
+calArea()
+{
+		area=(( $length*$breadth))
+		echo "Area of rectangle " $area
+}
+
+
